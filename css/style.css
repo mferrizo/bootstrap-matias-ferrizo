@@ -41,7 +41,7 @@
     background-color: #1FAB89;
     text-align: center;
 }
-
+/* Botones de las Redes sociales - Header y Footer */
 .redes__pc {
     visibility: hidden;
 }
@@ -111,6 +111,10 @@
     .img_planes {
         width: 20%;
     }
+    .section {
+        margin-top: 20px;
+        margin-left: 20%;
+    }
 }
 @media screen and (max-width: 576px) {
     .redes__cel {
@@ -127,6 +131,10 @@
     .img_planes {
         width: 20%;
     }
+    .section {
+        margin-top: 20px;
+        margin-left: 20%;
+    }
 }
 @media screen and (max-width: 992px) {
     .redes__cel {
@@ -142,5 +150,9 @@
     }
     .img_planes {
         width: 20%;
+    }
+    .section {
+        margin-top: 20px;
+        margin-left: 20%;
     }
 }
