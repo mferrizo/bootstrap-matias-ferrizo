@@ -1,0 +1,146 @@
+/* Todo el Header */
+.header {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.logo__cel {
+    visibility: hidden;
+    width: 100px;
+    height: 100px;
+}
+.logo__pc {
+    width: 100px;
+    height: 100px;
+}
+
+.nav__menu .nav__activo a:hover {
+    color:#D7FBE8
+}
+
+/* Todo el Main */
+.main {
+    background-color:#bae9d0;
+}
+.bg-propio {
+    background-color: #1FAB89;
+}
+.bg-buscar {
+    background-color: #9DF3C4;
+}
+.container__1 {
+    background-color: #62D2A2;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+}
+.container__2 {
+    background-color: #4B8673;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+}
+/* Todo el Footer */
+.footer {
+    background-color: #1FAB89;
+    text-align: center;
+}
+
+.redes__pc {
+    visibility: hidden;
+}
+.facebook {
+    color: #3b5998;
+    font-size: 25px;
+    margin: 5px 5px 5px 5px;
+}
+.instagram {
+    color: #C13584;
+    font-size: 25px;
+    margin: 5px 5px 5px 5px;
+}
+.whatsapp {
+    color: #ffffff;
+    font-size: 25px;
+    margin: 5px 5px 5px 5px;
+}
+.twitter {
+    color: #14171A;
+    font-size: 25px;
+    margin: 5px 5px 5px 5px;
+}
+.youtube {
+    color: #FF0000;
+    font-size: 25px;
+    margin: 5px 5px 5px 5px;
+}
+/* Seccion Index*/
+.section {
+    margin-top: 20px;
+    margin-left: 5%;
+}
+.section__img {
+    margin: 20px auto 10Ppx 10px;
+    width: 70%;
+    height:50%;
+    text-align: center;
+}
+.section__img img:hover {
+    color: #1FAB89;
+    opacity: 1;
+    transform: scale(1);
+    transition: all 1s;
+    width: 97%;
+    filter: sepia(100%);
+}
+
+/* Pagina Planes */
+.img_planes {
+    width: 50%;
+}
+
+/* Tamaños de Pantallas */
+@media screen and (max-width: 768px) {
+    .redes__cel {
+        visibility: hidden;
+        display:none !important;
+    }
+    .redes__pc {
+        visibility:visible;
+    }
+    .logo__cel {
+        visibility: hidden;
+        display:none !important;
+    }
+    .img_planes {
+        width: 20%;
+    }
+}
+@media screen and (max-width: 576px) {
+    .redes__cel {
+        visibility: hidden;
+        display:none !important;
+    }
+    .redes__pc {
+        visibility:visible;
+    }
+    .logo__cel {
+        visibility: hidden;
+        display:none !important;
+    }
+    .img_planes {
+        width: 20%;
+    }
+}
+@media screen and (max-width: 992px) {
+    .redes__cel {
+        visibility: hidden;
+        display:none !important;
+    }
+    .redes__pc {
+        visibility:visible;
+    }
+    .logo__cel {
+        visibility: hidden;
+        display:none !important;
+    }
+    .img_planes {
+        width: 20%;
+    }
+}
