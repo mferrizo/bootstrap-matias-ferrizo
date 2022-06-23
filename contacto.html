@@ -1,105 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>APB</title>
     <link rel="icon" href="./img/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.google.com/share?selection.family=Roboto:wght@100" rel="stylesheet">
 </head>
-<body>
-    <section >
-        <!-- Comienzo del Header -->
-        <header id="cabecera">
-            <div>
-                <img src="./img/abp-logo-final2.png" alt="Logo  APB" class="logo">
+  <body>
+    <!-- Comienzo del Header--> 
+    <header class="header">
+        <div>
+          <nav class="navbar navbar-expand-lg bg-propio">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div><img src="./img/abp-logo-final2.png" alt="Logo  APB" class="logo__pc"></div>
+              <div class="redes__pc">          
+                <a href="http://www.facebook.com" target="_blank" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="http://www.instagram.com" target="_blank" class="instagram"><i class="fa-brands fa-instagram-square"></i></a>
+                <a href="http://www.whatsapp.com" target="_blank" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="http://www.twitter.com" target="_blank" class="twitter"><i class="fa-brands fa-twitter-square"></i></a>
+                <a href="http://www.youtube.com" target="_blank" class="youtube"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+              <div><img src="./img/abp-logo-final2.png" alt="Logo  APB" class="logo__cel"></div>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ul nav__menu">
+                  <li class="nav-item nav__activo">
+                    <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                  </li>
+                  <li class="nav-item nav__activo">
+                    <a class="nav-link active" aria-current="page" href="planes.html">PLANES</a>
+                  </li>
+                  <li class="nav-item nav__activo">
+                    <a class="nav-link active" aria-current="page" href="clientes.html">CLIENTES</a>
+                  </li>
+                  <li class="nav-item nav__activo">
+                    <a class="nav-link active" aria-current="page" href="equipo.html">EQUIPO</a>
+                  </li>
+                  <li class="nav-item nav__activo">
+                    <a class="nav-link active" aria-current="page" href="contacto.html">CONTACTO</a>
+                  </li>
+                </ul>
+                <div class="redes__cel">          
+                  <a href="http://www.facebook.com" target="_blank" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="http://www.instagram.com" target="_blank" class="instagram"><i class="fa-brands fa-instagram-square"></i></a>
+                  <a href="http://www.whatsapp.com" target="_blank" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+                  <a href="http://www.twitter.com" target="_blank" class="twitter"><i class="fa-brands fa-twitter-square"></i></a>
+                  <a href="http://www.youtube.com" target="_blank" class="youtube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
             </div>
-            <div id="fin__redes">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-instagram-square"></i>
-                <i class="fa-brands fa-whatsapp"></i>
-                <i class="fa-brands fa-twitter-square"></i>
-                <i class="fa-brands fa-youtube"></i>
-            </div>
-            <div id="menu1">
-                <nav>
-                    <ul class="ul">
-                        <li class="li"><a href="index.html">Home</a></li>
-                        <li class="li"><a href="planes.html">Planes</a></li>
-                        <li class="li"><a href="clientes.html">Clientes</a></li>
-                        <li class="li"><a href="equipo.html">Equipo</a></li>
-                        <li class="li"><a href="contacto.html">Contacto</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-            <!-- Comienzo del Main -->
-        <main class="contacto">
-            <h1>Contactanos</h1>
-            <div class="contacto__datos">
-            <form action="#" method="post">
-                <div>
-                    <label for="nombre">Nombre Completo</label>
-                    <input type="text" id="nombre" placeholder="Ingrese Nombre Completo" required>
-                </div>
-                <div>
-                    <label for="telefono"> Telefono</label>
-                    <input type="number" id="telefono" placeholder="Ingrese Su Telefono" required>
-                </div>
-                <div>
-                    <label for="email">Email</label>
-                    <input type="email" id="email" placeholder="Ingrese su Email" required>
-                </div>
-                <div>
-                    <label for="pass">Contraseña</label>
-                    <input type="password" id="pass" placeholder="Ingrese su contraseña">        
-                </div>
-                <div>
-                    <label for="caja">Comentarios</label>
-                    <textarea name="caja" id="caja" cols="30" rows="5"></textarea>
-                </div>
-                <div>
-                    <label for="eleccion">¿Quiere Ser llamado por Telefono?</label>
-                    <br>
-                    <input type="radio" name="eleccion" id="no">SI
-                    <input type="radio" name="eleccion" id="si">NO
-                </div>
-                <div>
-                    <label for=""></label>
-                    <select name="usuario" id="usuario">Elija su Plan
-                    <option value="00">Elegir Plan</option>
-                    <option value="01">Plan Usuarios</option>
-                    <option value="02">Plan Pymes</option>
-                    <option value="03">Plan Empresas</option>
-                </select>
-                </div>
-                <div>
-                    <input type="checkbox" name="acepto" id="">Acepta terminos y condiciones
-                    <input type="checkbox" name="news" id="">Desea recibir news
-                </div>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Vaciar Campos">
-            </form>
+          </nav>
         </div>
-        <!-- Comienzo del Footer -->
-        <hr>
-        <section>
-
-        </section>
-        <footer class="footer">
-            <div class="fin">
-                <h2 class=".bood__titulo">Conocenos ....</h2>
-                <i class="fa-brands fa-facebook" class="prueba"></i>
-                <i class="fa-brands fa-instagram-square"></i>
-                <i class="fa-brands fa-whatsapp"></i>
-                <i class="fa-brands fa-twitter-square"></i>
-                <i class="fa-brands fa-youtube"></i>
-            </div>
-        </footer>
-        </main>
-  
-        <script src="https://kit.fontawesome.com/7f265cb1ea.js" crossorigin="anonymous"></script>
-    </section>
+    </header>
+    <!-- Comienzo del Main-->
+    <main> 
+    </main>
+    <!-- Comienzo del Footer -->
+    <footer class="bg-light text-center text-lg-start footer mt-3">
+      <div class="text-center p-3" style="background-color: #1FAB89;">
+       CONOCENOS >>>          
+       <a class="text-dark" href="mailto:info@apb.net.ar">info@apb.net.ar</a> 
+       © 2022 Copyright:
+        <a class="text-dark" href="https://apb.net.ar.com.ar/">APB.net.ar</a>
+        <div>       
+          <a href="http://www.facebook.com" target="_blank" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+          <a href="http://www.instagram.com" target="_blank" class="instagram"><i class="fa-brands fa-instagram-square"></i></a>
+          <a href="http://www.whatsapp.com" target="_blank" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="http://www.twitter.com" target="_blank" class="twitter"><i class="fa-brands fa-twitter-square"></i></a>
+          <a href="http://www.youtube.com" target="_blank" class="youtube"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </footer>
+  <!-- Script Varios -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/7f265cb1ea.js" crossorigin="anonymous"></script>
 </body>
+</html>
