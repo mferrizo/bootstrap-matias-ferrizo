@@ -95,6 +95,62 @@
     width: 50%;
 }
 
+.clientes {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 70%;
+    height: 100%;
+}
+.clientes h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 70%;
+    height: 100%;
+
+}
+
+/* Pagina Equipo */
+.equipo {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 70%;
+    height: 100%;
+}
+.equipo h5 {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 70%;
+    height: 100%;
+}
+
+/* Pagina Contacto */
+.contacto {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 60%;
+    height: 100%;
+}
+.contacto h5 {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 70%;
+    height: 100%;
+}
 /* Tamaños de Pantallas */
 @media screen and (max-width: 768px) {
     .redes__cel {
