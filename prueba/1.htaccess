@@ -1,0 +1,4 @@
+AuthName "Autorizacion Requerida"
+AuthUserFile .htpasswd
+AuthType Basic
+require user usuario
