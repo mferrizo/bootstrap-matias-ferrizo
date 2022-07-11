@@ -1,0 +1,302 @@
+/* Partials del Header */
+.header {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.header__propio {
+  background-color: #1FAB89;
+}
+.header__logocel {
+  visibility: hidden;
+  width: 100px;
+  height: 100px;
+}
+.header__logopc {
+  width: 100px;
+  height: 100px;
+}
+.header .nav__menu .nav__activo a:hover {
+  color: #D7FBE8;
+}
+.header__buscar {
+  background-color: #9DF3C4;
+}
+.header .redes__pc {
+  visibility: hidden;
+}
+.header .facebook {
+  color: #3b5998;
+  font-size: 25px;
+  margin: 5px 5px 5px 5px;
+}
+.header .instagram {
+  color: #C13584;
+  font-size: 25px;
+  margin: 5px 5px 5px 5px;
+}
+.header .whatsapp {
+  color: #ffffff;
+  font-size: 25px;
+  margin: 5px 5px 5px 5px;
+}
+.header .twitter {
+  color: #14171A;
+  font-size: 25px;
+  margin: 5px 5px 5px 5px;
+}
+.header .youtube {
+  color: #FF0000;
+  font-size: 25px;
+  margin: 5px 5px 5px 5px;
+}
+
+.index {
+  background-color: #ffffff;
+}
+.index__section {
+  margin-top: 20px;
+  margin-left: 5%;
+}
+.index__img {
+  margin: 20px auto 10Ppx 10px;
+  width: 70%;
+  height: 50%;
+  text-align: center;
+}
+.index__img img:hover {
+  color: #1FAB89;
+  opacity: 1;
+  transform: scale(1);
+  transition: all 1s;
+  width: 97%;
+  filter: sepia(100%);
+}
+
+.planes {
+  background-color: #ffffff;
+}
+.planes__img {
+  width: 50%;
+}
+
+.clientes {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 70%;
+  height: 100%;
+}
+.clientes h2 {
+  text-align: center;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 70%;
+  height: 100%;
+}
+
+.equipo {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 70%;
+  height: 100%;
+}
+.equipo h5 {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 70%;
+  height: 100%;
+}
+
+.titulos {
+  font-size: 20px;
+  text-align: center;
+}
+
+.contacto {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 60%;
+  height: 100%;
+}
+.contacto h5 {
+  text-align: center;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 70%;
+  height: 100%;
+}
+.contacto h2 {
+  text-align: center;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 70%;
+  height: 100%;
+}
+
+.footer {
+  background-color: #1FAB89;
+  text-align: center;
+}
+.footer .redes__pc {
+  visibility: hidden;
+}
+
+.twitter {
+  color: #14171A;
+  font-size: 25px;
+  margin: 5px 5px 5px 5px;
+}
+.twitter:hover {
+  color: white;
+  font-size: 27px;
+  margin: 5px 5px 5px 5px;
+}
+
+.facebook {
+  color: #3b5998;
+  font-size: 25px;
+  margin: 5px 5px 5px 5px;
+}
+.facebook:hover {
+  color: white;
+  font-size: 27px;
+  margin: 5px 5px 5px 5px;
+}
+
+.whatsapp {
+  color: #ffffff;
+  font-size: 25px;
+  margin: 5px 5px 5px 5px;
+}
+.whatsapp:hover {
+  color: white;
+  font-size: 27px;
+  margin: 5px 5px 5px 5px;
+}
+
+.youtube {
+  color: #FF0000;
+  font-size: 25px;
+  margin: 5px 5px 5px 5px;
+}
+.youtube:hover {
+  color: white;
+  font-size: 27px;
+  margin: 5px 5px 5px 5px;
+}
+
+.instagram {
+  color: #C13584;
+  font-size: 25px;
+  margin: 5px 5px 5px 5px;
+}
+.instagram:hover {
+  color: white;
+  font-size: 27px;
+  margin: 5px 5px 5px 5px;
+}
+
+/* Boton Flotante de Whatsapp */
+.whatsapp__flotante {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+}
+.whatsapp__flotante .whatsapp-icon {
+  margin-top: 13px;
+}
+
+@media screen and (max-width: 768px) {
+  .redes__cel {
+    visibility: hidden;
+    display: none !important;
+  }
+  .redes__pc {
+    visibility: visible;
+  }
+  .header__logocel {
+    visibility: hidden;
+    display: none !important;
+  }
+  .planes__img {
+    width: 20%;
+  }
+  .index {
+    margin-top: 20px;
+    margin-left: 20%;
+  }
+  .index__section {
+    margin-top: 20px;
+    margin-left: 20%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .redes__cel {
+    visibility: hidden;
+    display: none !important;
+  }
+  .redes__pc {
+    visibility: visible;
+  }
+  .header__logocel {
+    visibility: hidden;
+    display: none !important;
+  }
+  .planes__img {
+    width: 20%;
+  }
+  .index {
+    margin-top: 20px;
+    margin-left: 20%;
+  }
+  .index__section {
+    margin-top: 20px;
+    margin-left: 20%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .redes__cel {
+    visibility: hidden;
+    display: none !important;
+  }
+  .redes__pc {
+    visibility: visible;
+  }
+  .header__logocel {
+    visibility: hidden;
+    display: none !important;
+  }
+  .planes__img {
+    width: 20%;
+  }
+  .index {
+    margin-top: 20px;
+    margin-left: 20%;
+  }
+  .index__section {
+    margin-top: 20px;
+    margin-left: 20%;
+  }
+}/*# sourceMappingURL=style.css.map */
